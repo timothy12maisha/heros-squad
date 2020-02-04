@@ -2,18 +2,66 @@
 import java.util.ArrayList;
 
 public class hero {
-    private String content;
-    private static ArrayList<hero> instances = new ArrayList<>();
+    private String heroName;
+    private String heroSuperPower;
+    private String codeName;
     private boolean registered;
     private int id;
-    public hero (String content){
-        this.content = content;
-        this.registered = false;
+    private static ArrayList<hero> instances = new ArrayList<>();
+
+    public hero(String heroName, String heroSuperPower, String codeName ) {
+        this.heroName = heroName;
+        this.heroSuperPower = heroSuperPower;
+        this.codeName = codeName;
+        this.registered = registered;
         instances.add(this);
         this.id = instances.size();
     }
-    public String getContent() {
-        return content;
+
+    public void setHeroName(String heroName) {
+        this.heroName = heroName;
+    }
+
+    public String getHeroSuperPower() {
+        return heroSuperPower;
+    }
+
+    public void setHeroSuperPower(String heroSuperPower) {
+        this.heroSuperPower = heroSuperPower;
+    }
+
+    public String getCodeName() {
+        return codeName;
+    }
+
+    public void setCodeName(String codeName) {
+        this.codeName = codeName;
+    }
+
+    public static ArrayList<hero> getInstances() {
+        return instances;
+    }
+
+    public static void setInstances(ArrayList<hero> instances) {
+        hero.instances = instances;
+    }
+
+    public boolean isRegistered() {
+        return registered;
+    }
+
+
+
+
+//    public hero (String content){
+//        this.heroName = content;
+//        this.registered = false;
+//
+//    }
+
+
+    public String getHeroName() {
+        return heroName;
     }
     public static ArrayList<hero> getAll(){
         return instances;
@@ -30,8 +78,8 @@ public class hero {
     public static hero findById(int id){
         return instances.get(id-1);
     }
-    public void update(String content) {
-        this.content = content;
+    public void update(String heroName) {
+        this.heroName = heroName;
     }
     public void deletePost(){
         instances.remove(id-1);

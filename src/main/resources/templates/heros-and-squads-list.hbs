@@ -1,10 +1,19 @@
 {{#partial "content"}}
-    <P> This is the Squad:{{squad.content}}</P>
-    <p> This is are the heros in the Squad: {{ hero.content }}</p>
+    {{#if heros}}
+
+        {{#each heros}}
+            <p> This is are the heros in the Squad: {{ heroName }}</p>
+            <p> This is are the heros in the Squad: {{ heroSuperPower }}</p>
+            <p> This is are the heros in the Squad: {{ codeName }}</p>
+        {{/each}}
+
+    {{/if}}
+
+
 
     <h5>Hero status:</h5>
     <p>
-        {{#if hero.published }}
+        {{#if heros}}
             <span class="glyphicon glyphicon-star" aria-hidden="true"></span>  HERO IS REGISTERED
         {{/if}}
         <a href="/heros/{{hero.id}}/update">EDIT THIS HERO</a><br>
@@ -12,7 +21,7 @@
     </p>
     <h5> Squad Status</h5>
     <p>
-        {{#if hero.published }}
+        {{#if hero}}
             <span class="glyphicon glyphicon-star" aria-hidden="true"></span>  SQUAD IS REGISTERED
         {{/if}}
         <a href="/squads/{{squad.id}}/update">EDIT THIS SQUAD</a><br>
