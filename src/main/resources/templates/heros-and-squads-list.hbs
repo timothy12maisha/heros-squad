@@ -1,0 +1,23 @@
+{{#partial "content"}}
+    <P> This is the Squad:{{squad.content}}</P>
+    <p> This is are the heros in the Squad: {{ hero.content }}</p>
+
+    <h5>Hero status:</h5>
+    <p>
+        {{#if hero.published }}
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>  HERO IS REGISTERED
+        {{/if}}
+        <a href="/heros/{{hero.id}}/update">EDIT THIS HERO</a><br>
+        <a href="/heros/{{hero.id}}/delete">DELETE THIS HERO</a>
+    </p>
+    <h5> Squad Status</h5>
+    <p>
+        {{#if hero.published }}
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>  SQUAD IS REGISTERED
+        {{/if}}
+        <a href="/squads/{{squad.id}}/update">EDIT THIS SQUAD</a><br>
+        <a href="/squads/{{squad.id}}/delete">DELETE THIS SQUAD</a>
+
+    </p>
+{{/partial}}
+{{> layout.hbs}}

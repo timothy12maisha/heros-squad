@@ -1,12 +1,11 @@
-
 import java.util.ArrayList;
 
-public class hero {
+public class squad {
     private String content;
-    private static ArrayList<hero> instances = new ArrayList<>();
+    private static ArrayList<squad> instances = new ArrayList<squad>();
     private boolean registered;
     private int id;
-    public hero (String content){
+    public squad (String content){
         this.content = content;
         this.registered = false;
         instances.add(this);
@@ -15,10 +14,10 @@ public class hero {
     public String getContent() {
         return content;
     }
-    public static ArrayList<hero> getAll(){
+    public static ArrayList<squad> getAll(){
         return instances;
     }
-    public static void clearAllHeros(){
+    public static void clearAllSquads(){
         instances.clear();
     }
     public boolean getRegistered(){
@@ -27,13 +26,13 @@ public class hero {
     public int getId() {
         return id;
     }
-    public static hero findById(int id){
+    public static squad findById(int id){
         return instances.get(id-1);
     }
     public void update(String content) {
         this.content = content;
     }
-    public void deletePost(){
+    public void deleteSquads(){
         instances.remove(id-1);
     }
 }
