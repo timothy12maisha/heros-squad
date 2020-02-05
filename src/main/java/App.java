@@ -69,21 +69,8 @@ public class App {
             int idOfHerosToEdit = Integer.parseInt(req.params("id"));
             hero editHero = hero.findById(idOfHerosToEdit);
             editHero.update(newContent); //don't forget me
-            return new ModelAndView(model, "success-hero-registered.hbs");
+            return new ModelAndView(model, "Success-hero-registered.hbs");
         }, new HandlebarsTemplateEngine());
 
-        get("/heros/:id/delete", (req, res) -> {
-            Map<String, Object> model = new HashMap<>();
-            int idOfHerosToDelete = Integer.parseInt(req.params("id")); //pull id - must match route segment
-            hero deleteHero = hero.findById(idOfHerosToDelete); //use it to find post
-            deleteHero.deletePost();
-            return new ModelAndView(model, "success.hbs");
-        }, new HandlebarsTemplateEngine());
-
-        get("/heros/delete", (req, res) -> {
-            Map<String, Object> model = new HashMap<>();
-            hero.clearAllHeros();
-            return new ModelAndView(model, "success.hbs");
-        }, new HandlebarsTemplateEngine());
     }
 }

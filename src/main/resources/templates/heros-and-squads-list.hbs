@@ -1,57 +1,18 @@
 {{#partial "content"}}
-    <table class="table">
-        <thead>
-        <tr class="headerNew">
-            <th scope="col">#</th>
-            <th scope="col">UNDERTAKERS</th>
-            <th scope="col">FIRECRACKERS</th>
-            <th scope="col">VINDICATORS</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row">1</th>
-            {{#if heros}}
-                {{#if  }}
-                    <td>
-                        {{#each heros}}
-                            <p>Hero Name: {{ heroName }}</p>
-                            <p>Hero Super-Power: {{ heroSuperPower }}</p>
-                            <p>Hero Code-Name: {{ codeName }}</p>
-                            <P>{{ superSquadName}}</P>
-                        {{/each}}
-                    </td>
-                {{else if}}
+    <div class="card text-white bg-danger col-md-4" >
+        <div class="card-header text-center">Squad</div>
+    {{#if heros}}
+        {{#each heros}}
+        <div class="card-body">
+            <h5 class="card-title"> {{ superSquadName}}</h5>
+            <p class="card-text">Hero Name: {{ heroName }}</p>
+            <p class="card-text">Hero Super-Power: {{ heroSuperPower }}</p>
+            <p class="card-text">Hero Code-Name: {{ codeName }}</p>
+        </div>
+        {{/each}}
+    {{/if}}
+    </div>
 
-                    <td>
-                        {{#each heros}}
-                            <p>Hero Name: {{ heroName }}</p>
-                            <p>Hero Super-Power: {{ heroSuperPower }}</p>
-                            <p>Hero Code-Name: {{ codeName }}</p>
-                        {{/each}}
-                    </td>
-                {{else}}
-                    <td>
-                        {{#each heros}}
-                            <p>Hero Name: {{ heroName }}</p>
-                            <p>Hero Super-Power: {{ heroSuperPower }}</p>
-                            <p>Hero Code-Name: {{ codeName }}</p>
-                         {{/each}}
-                    </td>
-                {{/if}}
-            {{/if}}
-        </tr>
-        </tbody>
-    </table>
-
-    <h5>Hero status:</h5>
-    <p>
-        {{#if heros}}
-            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>  HERO IS REGISTERED
-        {{/if}}
-        <a href="/heros/{{hero.id}}/update">EDIT THIS HERO</a><br>
-        <a href="/heros/{{hero.id}}/delete">DELETE THIS HERO</a>
-    </p>
 
 {{/partial}}
 {{> layout.hbs}}

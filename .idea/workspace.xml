@@ -4,6 +4,7 @@
     <list default="true" id="491ced66-009f-433c-b4e7-184006696133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/Images/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heros-and-squads-list.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/heros-and-squads-list.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
