@@ -1,15 +1,52 @@
 {{#partial "content"}}
-    {{#if heros}}
-
-        {{#each heros}}
-            <p> This is are the heros in the Squad: {{ heroName }}</p>
-            <p> This is are the heros in the Squad: {{ heroSuperPower }}</p>
-            <p> This is are the heros in the Squad: {{ codeName }}</p>
-        {{/each}}
-
-    {{/if}}
-
-
+    <table class="table">
+        <thead>
+        //this are the heading for various squads
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">UNDERTAKERS</th>
+            <th scope="col">FIRECRACKERS</th>
+            <th scope="col">VINDICATORS</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            {{#if heros}}
+                //i want to display the heros property under a specific squad name depending on squad selected
+                {{#if  }}
+                    //this should display if only the squad is undertakers
+                    <td>
+                        {{#each heros}}
+                            <p>Hero Name: {{ heroName }}</p>
+                            <p>Hero Super-Power: {{ heroSuperPower }}</p>
+                            <p>Hero Code-Name: {{ codeName }}</p>
+                            <P>{{ superSquadName}}</P>
+                        {{/each}}
+                    </td>
+                {{else if}}
+                    //this should display if only the squad is firecrackers
+                    <td>
+                        {{#each heros}}
+                            <p>Hero Name: {{ heroName }}</p>
+                            <p>Hero Super-Power: {{ heroSuperPower }}</p>
+                            <p>Hero Code-Name: {{ codeName }}</p>
+                        {{/each}}
+                    </td>
+                {{else}}
+                    //this should display if only the squad is vindicators
+                    <td>
+                        {{#each heros}}
+                            <p>Hero Name: {{ heroName }}</p>
+                            <p>Hero Super-Power: {{ heroSuperPower }}</p>
+                            <p>Hero Code-Name: {{ codeName }}</p>
+                         {{/each}}
+                    </td>
+                {{/if}}
+            {{/if}}
+        </tr>
+        </tbody>
+    </table>
 
     <h5>Hero status:</h5>
     <p>
@@ -19,14 +56,6 @@
         <a href="/heros/{{hero.id}}/update">EDIT THIS HERO</a><br>
         <a href="/heros/{{hero.id}}/delete">DELETE THIS HERO</a>
     </p>
-    <h5> Squad Status</h5>
-    <p>
-        {{#if hero}}
-            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>  SQUAD IS REGISTERED
-        {{/if}}
-        <a href="/squads/{{squad.id}}/update">EDIT THIS SQUAD</a><br>
-        <a href="/squads/{{squad.id}}/delete">DELETE THIS SQUAD</a>
 
-    </p>
 {{/partial}}
 {{> layout.hbs}}
