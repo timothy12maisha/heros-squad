@@ -3,23 +3,27 @@
     <form action="/heros/new" method="post">
         <div class="form-group">
             <label for="hname"  >Hero's name</label>
-            <input type="text" class="form-control" id="hname" name="hname" placeholder="Example input">
+            <input type="text" class="form-control" id="hname" name="hname" placeholder="Type here...">
         </div>
         <div class="form-group">
             <label for="sname">Super-powers</label>
-            <input type="text" class="form-control" id="sname" name="sname" placeholder="Another input">
+            <input type="text" class="form-control" id="sname" name="sname" placeholder="Type here...">
         </div>
         <div class="form-group">
             <label for="cname">Code-name</label>
-            <input type="text" class="form-control" id="cname" name="cname" placeholder="Another input">
+            <input type="text" class="form-control" id="cname" name="cname" placeholder="Type here...">
         </div>
-        <select name="sqname" id="sqname" class="custom-select" >
+        <div class="form-group">
+        <label for="cname">Select Squad Here</label>
+        <select class="form-control" name="sqname" id="sqname" class="custom-select" >
             <option selected>Choose Squad here..</option>
             <option value="1">Undertakers</option>
             <option value="2">Firecrackers</option>
             <option value="3">Vindicators</option>
         </select>
-        <button type="submit" class="new-button">Submit Hero</button>
+        </div>
+        <button type="submit" class="btn btn-danger" >Submit Hero</button>
+
     </form>
 
 {{/partial}}

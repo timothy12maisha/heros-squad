@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="491ced66-009f-433c-b4e7-184006696133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/Images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/Images/image-5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/squad.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/Images/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Success-squad-registered.hbs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heros-and-squads-list.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/heros-and-squads-list.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register-hero-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register-hero-form.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register-squad-form.hbs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,10 +143,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580712216580" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1580896692606">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1580907563682">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580896692606" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580907563682" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,8 +1,7 @@
 {{#partial "content"}}
     <table class="table">
         <thead>
-        //this are the heading for various squads
-        <tr>
+        <tr class="headerNew">
             <th scope="col">#</th>
             <th scope="col">UNDERTAKERS</th>
             <th scope="col">FIRECRACKERS</th>
@@ -13,9 +12,7 @@
         <tr>
             <th scope="row">1</th>
             {{#if heros}}
-                //i want to display the heros property under a specific squad name depending on squad selected
                 {{#if  }}
-                    //this should display if only the squad is undertakers
                     <td>
                         {{#each heros}}
                             <p>Hero Name: {{ heroName }}</p>
@@ -25,7 +22,7 @@
                         {{/each}}
                     </td>
                 {{else if}}
-                    //this should display if only the squad is firecrackers
+
                     <td>
                         {{#each heros}}
                             <p>Hero Name: {{ heroName }}</p>
@@ -34,7 +31,6 @@
                         {{/each}}
                     </td>
                 {{else}}
-                    //this should display if only the squad is vindicators
                     <td>
                         {{#each heros}}
                             <p>Hero Name: {{ heroName }}</p>

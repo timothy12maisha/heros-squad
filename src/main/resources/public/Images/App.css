@@ -52,9 +52,28 @@ input[type=text] {
 height: 450px;
 }
 .carousel{
-height: 450px;
+    height: 450px;
+    interval: 500;
 }
-
+.headerNew{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 2px 3px grey;
+    color: brown;
+    font-size: 20px;
+}
+#nav-text{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 2px 3px grey;
+    color: white;
+    font-size: 20px;
+}
+#sqname{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+    margin: 25px;
+}
 
 
 
