@@ -2,15 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="491ced66-009f-433c-b4e7-184006696133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/Images/image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/Images/image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/Images/image 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/.heroku-deploy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/system.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/Success-hero-registered.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/heros-and-squads-list.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/register-hero-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/build.tgz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/image-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/image-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/image-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +78,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\heros-squad\src\main\java" />
       <recent name="C:\Users\User\IdeaProjects\heros-squad\src\main\resources\public" />
     </key>
   </component>
