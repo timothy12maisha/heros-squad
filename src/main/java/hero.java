@@ -63,14 +63,6 @@ public class hero {
 
 
 
-
-//    public hero (String content){
-//        this.heroName = content;
-//        this.registered = false;
-//
-//    }
-
-
     public String getHeroName() {
         return heroName;
     }
