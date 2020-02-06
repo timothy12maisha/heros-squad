@@ -47,30 +47,5 @@ public class App {
             return new ModelAndView(model, "register-hero-form.hbs");
         }, new HandlebarsTemplateEngine());
 
-        get("/heros/:id", (req, res) -> {
-            Map<String, Object> model = new HashMap<>();
-            int idOfHerosToFind = Integer.parseInt(req.params("id")); //pull id - must match route segment
-            hero foundHero = hero.findById(idOfHerosToFind); //use it to find hero
-            model.put("hero", foundHero); //add it to model for template to display
-            return new ModelAndView(model, "heros-and-squads-list.hbs"); //individual post page.
-        }, new HandlebarsTemplateEngine());
-
-        get("/heros/:id/update", (req,res)->{
-            Map<String, Object> model = new HashMap<>();
-            int idOfHerosToEdit = Integer.parseInt(req.params("id"));
-            hero editHero = hero.findById(idOfHerosToEdit);
-            model.put("editPost", editHero);
-            return new ModelAndView(model, "register-hero-form.hbs");
-        } , new HandlebarsTemplateEngine());
-
-        post("/heros/:id/update", (req, res) -> {
-            Map<String, Object> model = new HashMap<>();
-            String newContent = req.queryParams("content");
-            int idOfHerosToEdit = Integer.parseInt(req.params("id"));
-            hero editHero = hero.findById(idOfHerosToEdit);
-            editHero.update(newContent); //don't forget me
-            return new ModelAndView(model, "Success-hero-registered.hbs");
-        }, new HandlebarsTemplateEngine());
-
     }
 }

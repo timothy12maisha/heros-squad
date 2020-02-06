@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="491ced66-009f-433c-b4e7-184006696133" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/Images/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/Images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/Images/image-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/Images/image-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/Images/image-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/Images/image-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/public/Images/image-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/Success-hero-registered.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/heros-and-squads-list.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/register-hero-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/Images/image-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/Success-hero-registered.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/heros-and-squads-list.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/register-hero-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/Images/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/Images/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heros-and-squads-list.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/heros-and-squads-list.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register-hero-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register-hero-form.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +169,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580712216580" />
+    <state x="65" y="0" key="new project wizard" timestamp="1580973837548">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1580973837548" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1580907563682">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
