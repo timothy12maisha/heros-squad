@@ -4,7 +4,7 @@
 
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for testing purposes.
+These instructions will get you a copy of the project/app up and running on your local machine for testing purposes.
 
 ### Prerequisites
 You need to a web browser: 
